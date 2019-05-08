@@ -198,7 +198,7 @@ class Board {
    public boolean hasVerticalAligned(Player player) {
       int matchCount = 0;
       for (int i = 0; i < this.gridSize; ++i) {
-         if(this.board[player.getRecentY()][i] == player.getSymbol()){
+         if(this.board[i][player.getRecentY()] == player.getSymbol()){
             matchCount++;
          }
       }
