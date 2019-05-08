@@ -9,7 +9,7 @@ public class TicTacToe
    public static void main(String[] args) {
 
       System.out.print("What board size you want ? ");
-      int boardSize = in.nextInt();  // array index starts at 0 instead of 1
+      int boardSize = in.nextInt();
 
       Board ticTacToeBoard = new Board(boardSize);
 
