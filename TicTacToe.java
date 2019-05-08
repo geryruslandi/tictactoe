@@ -125,7 +125,6 @@ class Board {
    private void initGame() {
       for (int row = 0; row < this.gridSize; ++row) {
          for (int col = 0; col < this.gridSize; ++col) {
-            System.out.println();
             board[row][col] = EMPTY;  // all cells empty
          }
       }
